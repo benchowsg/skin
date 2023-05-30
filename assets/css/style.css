@@ -593,7 +593,7 @@ section {
 .services .icon-box::before {
   content: "";
   position: absolute;
-  background: #fcccd4;
+  background: #fdeff2;
   right: 0;
   left: 0;
   bottom: 0;
@@ -603,7 +603,7 @@ section {
 }
 
 .services .icon-box:hover::before {
-  background: #e43c5c;
+  background: #fdeff2;
   top: 0;
   border-radius: 0px;
 }
@@ -615,7 +615,7 @@ section {
 .services .icon i {
   font-size: 48px;
   line-height: 1;
-  color: #e43c5c;
+  color: #fdeff2;
   transition: all 0.3s ease-in-out;
 }
 
@@ -637,11 +637,11 @@ section {
 
 .services .icon-box:hover .title a,
 .services .icon-box:hover .description {
-  color: #fff;
+  color: #000;
 }
 
 .services .icon-box:hover .icon i {
-  color: #fff;
+  color: #000;
 }
 
 .services .icon-box .btn-learn-more {
@@ -662,8 +662,8 @@ section {
 }
 
 .services .icon-box:hover .btn-learn-more {
-  color: #fff;
-  border: 2px solid #ffffff;
+  color: #000;
+  border: 2px solid #000;
 }
 
 
